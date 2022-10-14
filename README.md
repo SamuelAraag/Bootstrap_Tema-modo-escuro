@@ -2,7 +2,7 @@
 Projeto site - utilizando tema escuro 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/101607535/195604778-ca2d42eb-0a08-4e05-b039-dabafc020040.png" width="300px"/>
+  <img src="https://user-images.githubusercontent.com/101607535/195604778-ca2d42eb-0a08-4e05-b039-dabafc020040.png" width="100%"/>
 </div>
 
 <div align="center">
