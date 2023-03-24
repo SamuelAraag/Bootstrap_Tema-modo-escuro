@@ -5,19 +5,19 @@ body {
   background-color: #1b1327;
 }
 
-.landing{
+.landing {
   height: 100vh;
   background-color: #1b1327;
 }
 
-.home-inner{
+.home-inner {
   background-image: url('../img/mountain.jpg');
   opacity: .50;
   filter: blur(2px);
   position: fixed;
 }
 
-.caption{
+.caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -25,43 +25,43 @@ body {
   z-index: 1;
 }
 
-.caption h1{
+.caption h1 {
   font-size: 6.5rem;
   letter-spacing: .3rem;
   text-shadow: .2rem .2rem 1rem black;
   padding-bottom: 1.2rem;
 }
 
-.caption h3{
+.caption h3 {
   font-size: 4rem;
   letter-spacing: 1rem;
   text-shadow: .2rem .2rem 1rem black;
   padding-bottom: 2.5rem;
 }
 
-.slider{
+.slider {
   background-color: #6e6e6e;
   box-shadow: .1rem .1rem .8rem black;
   transition: .5s;
 }
 
-.slider:before{
+.slider:before {
   background-color: white;
   transition: .5s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #1849ab;
 }
 
 @media (max-width: 767.98px) {
-  .caption h1{
+  .caption h1 {
     font-size: 3.7rem;
     letter-spacing: .15rem;
     padding-bottom: 1.2rem;
   }
 
-  .caption h3{
+  .caption h3 {
     font-size: 2.7rem;
     letter-spacing: .2rem;
     padding-bottom: 1.2rem;
@@ -75,6 +75,7 @@ input:checked + .slider {
   display: table;
   z-index: -1;
 }
+
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -83,6 +84,7 @@ input:checked + .slider {
   width: 100%;
   height: 100%;
 }
+
 .home-inner {
   display: table;
   top: 0;
@@ -92,7 +94,7 @@ input:checked + .slider {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
 
@@ -102,12 +104,14 @@ input:checked + .slider {
   width: 60px;
   height: 34px;
 }
+
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
   outline: none;
 }
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -116,6 +120,7 @@ input:checked + .slider {
   right: 0;
   bottom: 0;
 }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -124,16 +129,20 @@ input:checked + .slider {
   left: 4px;
   bottom: 4px;
 }
-input:focus + .slider {
+
+input:focus+.slider {
   box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);
   outline: none;
 }
-input:checked + .slider:before {
+
+input:checked+.slider:before {
   transform: translateX(26px);
 }
+
 .slider.round {
   border-radius: 34px;
 }
+
 .slider.round:before {
   border-radius: 50%;
 }
