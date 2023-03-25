@@ -1,6 +1,6 @@
 # Bootstrap_Tema-modo-escuro
 Projeto site - utilizando tema escuro 
-<a href="https://samuelaraag.github.io/Bootstrap_Tema-modo-escuro/">link para acessar</a>
+<a href="https://samuelaraag.github.io/Bootstrap_Tema-modo-escuro/" target="_blank" rel="noopener noreferrer">link para acessar</a>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/101607535/195604778-ca2d42eb-0a08-4e05-b039-dabafc020040.png" width="100%"/>
